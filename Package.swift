@@ -21,8 +21,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ProxyCoreKitBinary",
-            url: "https://github.com/mahsanet/ProxyCoreKit/releases/download/3.0.0/ProxyCoreKit.xcframework.zip",
-            checksum: "3485072bdd95532a4db7b5eaa375550bd1db5005bfce143a00bc01178a4e32b3"
+            url: "https://github.com/mahsanet/ProxyCoreKit/releases/download/5.0.0/ProxyCoreKit.xcframework.zip",
+            checksum: "9f29c547e951cfb9a0dd0a36ab020be204d5be8d1610b7b2131d9325f0a721d9"
         )
     ]
 )
