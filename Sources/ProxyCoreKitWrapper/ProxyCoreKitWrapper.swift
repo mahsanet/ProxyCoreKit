@@ -30,13 +30,14 @@ public enum ProxyCore {
     ///
     ///
     public static func startCore(
+        coreName: String,
         cacheDir: String,
         config: String,
         bufferSize: Int32 = 128,
         enableSniffing: Bool = true,
         port: Int32 = 2080
     ) -> String {
-        return IosStartCoreIOS(cacheDir, config, bufferSize, enableSniffing, port)
+        return IosStartCoreIOS(coreName, cacheDir, config, bufferSize, enableSniffing, port)
     }
     
     
